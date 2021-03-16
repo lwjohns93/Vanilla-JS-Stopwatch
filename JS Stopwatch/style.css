@@ -1,0 +1,50 @@
+* {
+  font-family: 'Staatliches', cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, 
+h2, 
+p {
+  margin: 0.75rem;
+}
+
+.container {
+  background: #000903;
+  color: #97ED0C;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.style-btn {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: #97ED0C 1px solid;
+  border-radius: 0.2rem;
+  outline: none;
+  color: #97ED0C;
+  background: transparent;
+  cursor: pointer;
+}
+
+.laps-style {
+  margin: .5rem;
+  align-items: flex-start;
+}
+
+.laps-item {
+  padding: .5rem;
+  margin: .5rem;
+}
